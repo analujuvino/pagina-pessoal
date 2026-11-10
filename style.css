@@ -1,0 +1,157 @@
+/* ROLAGEM SUAVE ENTRE AS SEÇÕES */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CORPO DA PÁGINA */
+body {
+    background-color: #252525;
+    color: #D8CBAF;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+header {
+    margin-bottom: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #D8CBAF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* LINKS GERAIS */
+a {
+    color: #D8CBAF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #D8CBAF;
+    text-decoration: underline;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* APRESENTAÇÃO */
+.apresentacao {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* FOTO DE PERFIL */
+.apresentacao img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+
+/* TÍTULO PRINCIPAL */
+h1 {
+    font-family: 'Bodoni moda', serif;
+    font-weight: 250; /* ou 200, ou 100 */
+    font-size: 45px;
+    margin-bottom: 10px;
+     color: #D8CBAF;
+}
+
+
+/* SUBTÍTULO */
+h2 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
+     color: #D8CBAF;
+}
+
+
+/* SEÇÕES */
+section {
+    margin-bottom: 30px;
+}
+
+
+/* TÍTULOS DAS SEÇÕES */
+h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+/* PARÁGRAFOS */
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #D8CBAF;
+}
+
+
+/* RODAPÉ */
+footer {
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* REDES SOCIAIS */
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+/* LINKS DAS REDES */
+.redes-sociais a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    color: #D8CBAF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* ÍCONES */
+.redes-sociais i {
+    font-size: 28px;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+.redes-sociais a:hover {
+    color: #D8CBAF;
+    transform: translateY(-3px);
+}
